@@ -25,25 +25,27 @@ letter.sample <-sample(LETTERS, 2500, replace=T)
 ##"Description matrix creates a matrix from the given set of values"
 ##"Usage: matrix(data = NA, nrow = 1, ... [other irrelevant parameters])"
 ##"data: an optional data vector (including a list or expression vector)..." (other irrelevant stuff), letter.sample is a vector described in line 5
-##"nrow: the desired number of rows." Since the size of letter.sample is 2500 (which it is 50*50), the number of columns will be 50.0
+##"nrow: the desired number of rows." Since the size of letter.sample is 2500 (which it is 50*50)..
+##..the number of columns will be 50, since the number of rows is also 50.
 #Word.g is a large 50 by 50 matrix of random uppercase letters
 Word.g<-matrix(data=letter.sample, nrow=50)
 
 #The documentation of month.name is already described in line 6, it is just a vector of the name of the month in English, which are capitalized
 #The documentation of toupper shows the "Character Translation and Casefolding" documentation
 #in the description it reads the following
-##"tolower and toupper convert upper-case characters in a character vector to lower-case, or vice versa. Non-alphabetic characters are left unchanged"
-#it means that the new vector character vector will be converted to uppercase
+##"tolower and toupper convert upper-case characters in a character vector to lower-case, or vice versa..."
+#It means that the new vector character vector (Scrambled.months) will be converted to uppercase
 ##About the backets
 ###in R the integers separated by a colon creates a numeric vector starting from the first to the last number
 ###It means that 1:12 creates a vector c(1,2,3,4,5,6,7,8,9,10,11,12)
 ###The expression sample(1:12, replace=F) will create a numeric vector if the integer 1 to 12 in a random order!
-###puttin the expression in a bracket will order create a new vector of its first 12 elements in a random order!
+###Putting the expression in square bracket after month.name
+###will order create a new vector of its first 12 elements (it has 12 elements) in a random order!
 ###Notice that I start with 1, because R vectors and list are 1-based! not 0-based that the most of the other programming languages
 scrambled.months<- toupper(month.name[sample(1:12, replace=F)])
 
 #c is a common function it creates a vector of the R objects separated by commas as mentioned in line 37
-#address.x and address.y are empty vectors that will be populated by the loop below
+#address.x and address.y are empty vectors that will be populated by the for loop below
 address.x<-c()
 address.y<-c()
 
@@ -53,7 +55,7 @@ for (i in 1:12){
 	#Indeed if statements also exists in R, blocks are also defined by curly braces, but they are not required for a single line statement
     #The i is an index of the for loop defined in line 51
 	if(i==1 | i==5){
-        #to properly switch from horizontal to vertical, 
+        #To properly switch from horizontal to vertical, 
         #It is needed to change a side of the matrix
 		Word.g<-Word.g[1:50, 50:1]
 	}
