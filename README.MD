@@ -26,12 +26,10 @@ Just run this command in the same directory were the file is placed! If it doesn
 
 2- Running from R
 
-First create a varible called "development and set it to TRUE"
+First create a varible called "development and set it to TRUE". Then run the source file
+
 
    development <- T
-
-Then run the source file 
-
    source('/address/where/the/file/is/located/')#Notice that forward slash indicate the directories: this is valid in ANY OS (even in Windows)
 
 3- Running from the command line
