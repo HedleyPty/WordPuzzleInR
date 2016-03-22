@@ -2,7 +2,7 @@
 args = commandArgs(trailingOnly=TRUE)
 if (length(args)==0 | !('development' %in% ls())){
 development<-F
-}else{
+}else if(length(args) != 0){
 development<-args[1]
 }
 
