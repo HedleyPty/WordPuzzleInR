@@ -30,6 +30,7 @@ First create a varible called "development and set it to TRUE". Then run the sou
 
 
    development <- T
+
    source('/address/where/the/file/is/located/')#Notice that forward slash indicate the directories: this is valid in ANY OS (even in Windows)
 
 3- Running from the command line
