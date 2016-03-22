@@ -12,9 +12,11 @@ Notice that no external libraries were used!!
 #How to run this project for normal users
 1- Install R: **R must be installed to run this project**.  R must be downloaded and installed from https://cran.r-project.org/
 2- Running from R:
+```
 
-    source('/address/where/the/file/is/located/')  #Notice that forward slash indicate the directories: this is valid in ANY OS (even in Windows)
-
+    #Notice that forward slash indicate the directories: this is valid in ANY OS (even in Windows)
+    source('/address/where/the/file/is/located/')
+```
 3- Running from the command line
 	
 Just run this command in the same directory were the file is placed! If it doesn't work you must add R to the PATH variable!
@@ -26,11 +28,12 @@ Just run this command in the same directory were the file is placed! If it doesn
 
 2- Running from R
 
-First create a varible called "development" and set it to "TRUE" or "T". Then run the source file!
-
 ```
+   #Create a variable development with a value of T or TRUE
    development <- T
-   source('/address/where/the/file/is/located/') #Notice that forward slash indicate the directories: this is valid in ANY OS (even in Windows)
+   #Run the source file
+   #Notice that forward slash indicate the directories: this is valid in ANY OS (even in Windows)
+   source('/address/where/the/file/is/located/')
 ```
 3- Running from the command line
 
