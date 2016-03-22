@@ -1,17 +1,5 @@
-#!/usr/bin/env Rscript
-args = commandArgs(trailingOnly=TRUE)
-if (length(args)==0 | !('development' %in% ls())){
-development<-F
-}else if(length(args) != 0){
-development<-args[1]
-}
-
-if (development){
-Word.g<-matrix(sample(letters, 2500, replace=T), nrow=50)
-}else{
 Word.g<-matrix(sample(LETTERS, 2500, replace=T), nrow=50)
 
-}
 
 scrambled.months<- toupper(month.name[sample(1:12, replace=F)])
 
