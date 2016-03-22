@@ -3,6 +3,7 @@
 # Documentation in R can be called with the sintax ?R.object
 #?LETTERS calls the "Build-in Constant" documentation that reads
 ##Regarding LETTERS the documentation reads: "LETTERS: the 26 upper-case letters of the Roman alphabet"
+##Regarding letters the documentation reads: "letters: the 26 lower-case letters of the Roman alphabet" (used in the debug version)
 ##Regarding month.name (that we will use later) the documentation reads: "month.name: the English names for the months of the year" 
 
 #Since I use the sample function, the documentation reads:
@@ -18,7 +19,7 @@
 
 #BTW the symbol "<-" is an assignment operator in R
 
-letter.sample <-sample(LETTERS, 2500, replace=T)
+letter.sample <-sample(letters, 2500, replace=T)
 
 #Regarding the matrix function, the documentation reads
 ##"Description matrix creates a matrix from the given set of values"
@@ -52,9 +53,9 @@ for (i in 1:12){
 	#Indeed if statements also exists in R, blocks are also defined by curly braces, but they are not required for a single line statement
     #The i is an index of the for loop defined in line 51
 	if(i==1 | i==5){
-        #the t function transposes the matrix
-        #from 1 to 4 the months of the vector scrambled.months will be injected in a transposed matrix, so they will be vertical when the matrix is transposed back at index 5
-		Word.g<-t(Word.g)
+        #to properly switch from horizontal to vertical, 
+        #It is needed to change a side of the matrix
+		Word.g<-Word.g[1:50, 50:1]
 	}
   #Here we take a month from the scrambled.months vector  
   current.month <-scrambled.months[i]
