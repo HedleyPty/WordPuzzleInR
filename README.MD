@@ -29,5 +29,6 @@ Just run this command in the same directory were the file is placed! If it doesn
 
     
 #How to add R to your path variable in Windows (the installer doesn't do that in Windows, but its does in Mac and Linux)
+##You must add the the bin folder were the R.exe is placed
 
 ![Setting the PATH variable in Windows](https://embox.googlecode.com/svn/wiki/images/InstallToolchainPath/environment-variables-path-cygwin.png?_sm_au_=iVV5pRLFrTT6sP4n)
