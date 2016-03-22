@@ -27,16 +27,13 @@ Just run this command in the same directory were the file is placed! If it doesn
 2- Running from R
    
    #First create a varible called "development and set it to TRUE"
-
    development <- T
-   
-   #Then run the source file
-    
+   #Then run the source file 
    source('/address/where/the/file/is/located/')#Notice that forward slash indicate the directories: this is valid in ANY OS (even in Windows)
 
 3- Running from the command line
 
-	Just run this command in the same directory were the file is placed! If it doesn't work you must add R to the PATH variable!
+Just run this command in the same directory were the file is placed! If it doesn't work you must add R to the PATH variable!
 
     Rscript -vanilla word.game.R T
 
