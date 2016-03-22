@@ -14,7 +14,9 @@
 #The documentation reads:
 ##"x: Either a vector of one or more elements from which to choose ..."(other irrelevant stuff!)
 ##"size: a non-negative integer giving the number of items to choose"
-##"replace:Should sampling be with replacement?". In R the logical variables (in other languages called "booleans") are TRUE or T and FALSE or F
+##"replace:Should sampling be with replacement?"
+###replace requires a "logical parameter"
+##In R the logical variables (in other languages called "booleans") are TRUE or T and FALSE or F
 
 
 #BTW the symbol "<-" is an assignment operator in R
@@ -24,7 +26,8 @@ letter.sample <-sample(LETTERS, 2500, replace=T)
 #Regarding the matrix function, the documentation reads
 ##"Description matrix creates a matrix from the given set of values"
 ##"Usage: matrix(data = NA, nrow = 1, ... [other irrelevant parameters])"
-##"data: an optional data vector (including a list or expression vector)..." (other irrelevant stuff), letter.sample is a vector described in line 5
+##"data: an optional data vector (including a list or expression vector)..." (other irrelevant stuff), 
+###data parameter here is letter.sample which it is already a vector, described in line 5 (for debug I used letters)
 ##"nrow: the desired number of rows." Since the size of letter.sample is 2500 (which it is 50*50)..
 ##..the number of columns will be 50, since the number of rows is also 50.
 #Word.g is a large 50 by 50 matrix of random uppercase letters
@@ -44,7 +47,7 @@ Word.g<-matrix(data=letter.sample, nrow=50)
 ###Notice that I start with 1, because R vectors and list are 1-based! not 0-based that the most of the other programming languages
 scrambled.months<- toupper(month.name[sample(1:12, replace=F)])
 
-#c is a common function it creates a vector of the R objects separated by commas as mentioned in line 37
+#c is a common function it creates a vector of the R objects separated by commas as mentioned in line 43
 #address.x and address.y are empty vectors that will be populated by the for loop below
 address.x<-c()
 address.y<-c()
@@ -53,7 +56,7 @@ address.y<-c()
 
 for (i in 1:12){
 	#Indeed if statements also exists in R, blocks are also defined by curly braces, but they are not required for a single line statement
-    #The i is an index of the for loop defined in line 51
+    #The i is an index of the for loop defined in line 57
 	if(i==1 | i==5){
         #To properly switch from horizontal to vertical, 
         #It is needed to change a side of the matrix
