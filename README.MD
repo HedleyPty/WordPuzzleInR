@@ -10,22 +10,22 @@ Notice that no external libraries were used!!
 
 
 #How to run this script
-A- Install R: **R must be installed to run this project**.  R must be downloaded and installed from https://cran.r-project.org/
+1- Install R: **R must be installed to run this project**.  R must be downloaded and installed from https://cran.r-project.org/
 
-B-After installing R you have the following options
+2-After installing R you have the following options
 
-    1- Running from the R gui File->Open Script->Select the script wherever it is in your computer
+	1- Running from the R gui File->Open Script->Select the script wherever it is in your computer
 
-    2- Running from R:
+	2- Running from R:
 
     ```
     #Notice that forward slash indicate the directories: this is valid in ANY OS (even in Windows)
     source('/address/where/the/file/is/located/word.game.R')
     ```
 
-    3- Running from the command line
+	3- Running from the command line
 	
-Just run this command in the same directory were the file is placed! If it doesn't work you must add R to the PATH variable!
+		Just run this command in the same directory were the file is placed! If it doesn't work you must add R to the PATH variable!
 
     Rscript word.game.R
 
