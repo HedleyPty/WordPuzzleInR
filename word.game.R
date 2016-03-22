@@ -19,7 +19,7 @@
 
 #BTW the symbol "<-" is an assignment operator in R
 
-letter.sample <-sample(letters, 2500, replace=T)
+letter.sample <-sample(LETTERS, 2500, replace=T)
 
 #Regarding the matrix function, the documentation reads
 ##"Description matrix creates a matrix from the given set of values"
