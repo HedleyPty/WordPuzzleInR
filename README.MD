@@ -11,6 +11,7 @@ Notice that no external libraries were used!!
 
 #How to run this project for normal users
 1- Install R: **R must be installed to run this project**.  R must be downloaded and installed from https://cran.r-project.org/
+
 2- Running from R:
 ```
 
