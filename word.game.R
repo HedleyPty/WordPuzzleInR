@@ -14,7 +14,7 @@
 #The documentation reads:
 ##"x: Either a vector of one or more elements from which to choose ..."(other irrelevant stuff!)
 ##"size: a non-negative integer giving the number of items to choose"
-##"replace:Should sampling be with replacement?" (In R the logical variables are TRUE or T and FALSE or F)
+##"replace:Should sampling be with replacement?". In R the logical variables (in other languages called "booleans") are TRUE or T and FALSE or F
 
 
 #BTW the symbol "<-" is an assignment operator in R
