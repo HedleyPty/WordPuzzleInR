@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 args = commandArgs(trailingOnly=TRUE)
-if (length(args)==0 | 'development' %in% ls()){
+if (length(args)==0 | !('development' %in% ls())){
 development<-F
 }else{
 development<-args[1]
