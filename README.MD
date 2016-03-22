@@ -16,7 +16,7 @@ Notice that no external libraries were used!!
 
 ##After R is installed, you have the following options
 
-1- Running from the R gui: File->Open Script->Select the script wherever it is in your computer
+1- Running from the R gui (in Windows only!): File->Open Script->Select the script wherever it is in your computer.
 
 2- Running from R:
 
@@ -34,6 +34,8 @@ Just run this command in the same directory were the file is placed! If it doesn
 
     
 #How to add R to your path variable in Windows (the installer doesn't do that in Windows, but its does in Mac and Linux)
-##You must add the the bin folder were the R.exe is placed (usually C:\Program Files\R\R.version.number\bin) in order to run the program from the command line
+You must add the the bin folder were the R.exe is placed (usually C:\Program Files\R\R.version.number\bin) in order to run the program from the command line in Windows.
+
+Other OSs run R from the terminal, therefore no changes are required to run the program using the option 3.
 
 ![Setting the PATH variable in Windows](https://embox.googlecode.com/svn/wiki/images/InstallToolchainPath/environment-variables-path-cygwin.png?_sm_au_=iVV5pRLFrTT6sP4n)
