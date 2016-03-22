@@ -21,7 +21,7 @@ Notice that no external libraries were used!!
 2- Running from R:
 
     
-    #Notice that forward slash indicate the directories: this is valid in ANY OS (even in Windows)
+    #Notice that forward slash indicates the directory separator: this is valid in ANY OS (even in Windows!!)
     source('/address/where/the/file/is/located/word.game.R')
     
 
