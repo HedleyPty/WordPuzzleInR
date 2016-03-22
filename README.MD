@@ -25,10 +25,13 @@ Just run this command in the same directory were the file is placed! If it doesn
 1- Install R: **R must be installed to run this project**. R must be downloaded and installed from https://cran.r-project.org/
 
 2- Running from R
-   
-   #First create a varible called "development and set it to TRUE"
+
+First create a varible called "development and set it to TRUE"
+
    development <- T
-   #Then run the source file 
+
+Then run the source file 
+
    source('/address/where/the/file/is/located/')#Notice that forward slash indicate the directories: this is valid in ANY OS (even in Windows)
 
 3- Running from the command line
