@@ -8,6 +8,8 @@ Finally, it will create a text file named "Word Puzzle Challenge.txt" that will 
 
 Notice that no external libraries were used!!
 
+Please read the [R script](https://github.com/HedleyPty/WordPuzzleInR/blob/master/word.game.R) of this project: I tried to explained what I did in the comments!
+
 
 #How to run this script
 ##Install R:
