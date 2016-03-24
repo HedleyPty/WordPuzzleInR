@@ -74,8 +74,15 @@ for (i in 1:12){
     #We already have seen this before, however not the setdiff function 
     #The setdiff function extract the asymetric different between two sets (oops, I mean vectors!)
     #The idea to use this function is to NOT select an already taken position in the matrix!
+    if(sample(0:1)){
  	sample.x<-sample(setdiff(1:(l.minus.50), address.x), 1, replace=F)
  	sample.y<-sample(setdiff(1:(l.minus.50), address.y), 1, replace=F)
+    idx<-1
+    }else{
+    sample.x<-sample(setdiff(l:50, address.x), 1, replace=F)
+ 	sample.y<-sample(setdiff(l:50, address.y), 1, replace=F)
+    idx<- (-1)
+    }
     #Here I add data of already taken indices of the matrix in this variable
  	address.x<-c(address.x, sample.x)
  	address.y<-c(address.y, sample.y)
@@ -88,16 +95,16 @@ for (i in 1:12){
 		  
 			if(i <= 4){
 			  
-				current.address[1]<- current.address[1]+1
+				current.address[1]<- current.address[1]+ idx
 				
 				}
 			else if(i <= 8){
-				current.address[2]<- current.address[2]+1
+				current.address[2]<- current.address[2]+ idx
 				
 			}
 			else if (i >= 9) {
 			  
-				current.address <- current.address+1
+				current.address <- current.address+idx
 				
 			}
 		  address.x <- c(address.x, current.address[1])
