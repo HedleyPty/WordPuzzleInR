@@ -54,4 +54,6 @@ final<-c()
  for (i in 1:50){
  	final<-c(final, paste0(Word.g[i,], collapse=" "))
  }
- write.table(final,"Word Puzzle Challenge.txt",sep="\\n", col.names=F, row.names=F, quote = F)
+
+write.table(final,"Word Puzzle Challenge.txt",sep="\\n", col.names=F, row.names=F, quote = F)
+print('A text called "Word Puzzle Challenge.txt" has been created, open it in your text editor. It contains a Word Puzzle with the months of the year')
