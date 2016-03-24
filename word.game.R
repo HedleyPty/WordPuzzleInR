@@ -136,4 +136,8 @@ final<-c('Game Dev Challenge: Word Puzzles','Find the month names in the grid be
 ##The parameter "\\n" means that each string will be separated by a line break: col.names, row.names and 
 ##quote gives unnecesary information that won't be included in the final text file
 write.table(final,"Word Puzzle Challenge.txt",sep="\\n", col.names=F, row.names=F, quote = F)
-print('A text called "Word Puzzle Challenge.txt" has been created, open it in your text editor. It contains a Word Puzzle with the months of the year')
+#print('A text called "Word Puzzle Challenge.txt" has been created, open it in your text editor. It contains a Word Puzzle with the months of the year')
+switch(Sys.info()[['sysname']],
+Windows= {system('type Word\\ Puzzle\\ Challenge.txt')},
+Linux= {system('cat Word\\ Puzzle\\ Challenge.txt')},
+Darwin = {system('cat Word Puzzle Challenge.txt ')})
