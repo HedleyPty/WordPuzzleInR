@@ -28,6 +28,12 @@ Please read the [R script](https://github.com/HedleyPty/WordPuzzleInR/blob/maste
     
     #Notice that forward slash indicates the directory separator: this is valid in ANY OS (even in Windows!!)
     source('/address/where/the/file/is/located/word.game.R')
+
+	or
+
+    #In Windows and in RStudio, it will open a file picker, in the terminal, it will prompt for a file name in the current directory
+    source(choose.file())
+
     
 
 3- Running from the command line
