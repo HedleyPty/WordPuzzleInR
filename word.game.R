@@ -75,7 +75,8 @@ for (i in 1:12){
     #The setdiff function extract the asymetric different between two sets (oops, I mean vectors!)
     #The idea to use this function is to NOT select an already taken position in the matrix!
     ##
-    #This if/else blocks change the direction of the month name injected in the matrix
+    #This if/else blocks change the direction of the month name injected in the matrix at random 
+    ##sample(0:1,1) can have 2 values 1 (coerced as usual to TRUE) or 0 (coerced as usual to FALSE)
     if(sample(0:1,1)){
  	sample.x<-sample(setdiff(1:(l.minus.50), address.x), 1, replace=F)
  	sample.y<-sample(setdiff(1:(l.minus.50), address.y), 1, replace=F)
