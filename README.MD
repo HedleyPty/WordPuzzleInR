@@ -18,7 +18,10 @@ Please read the [R script](https://github.com/HedleyPty/WordPuzzleInR/blob/maste
 
 ##After R is installed, you have the following options
 
-1- Running from the R gui (in Windows only!): File->Open Script->Select the script wherever it is in your computer.
+1- Running from the R gui (in Windows only!): 
+	
+	1- File->Open Script->Select the script wherever it is in your computer.
+	2- In the script use Control+A, followed by Control+R
 
 2- Running from R:
 
