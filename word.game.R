@@ -121,13 +121,9 @@ final<-c('Game Dev Challenge: Word Puzzles','Find the month names in the grid be
     #then each of this string will be added as an element of the final vector!
  	final<-c(final, paste0(Word.g[i,], collapse=" "))
  }
-<<<<<<< HEAD
 
+#Here final vector will be written in the file Word Puzzle Challenge.txt.
+##The parameter "\\n" means that each string will be separated by a line break: col.names, row.names and 
+##quote gives unnecesary information that won't be included in the final text file
 write.table(final,"Word Puzzle Challenge.txt",sep="\\n", col.names=F, row.names=F, quote = F)
 print('A text called "Word Puzzle Challenge.txt" has been created, open it in your text editor. It contains a Word Puzzle with the months of the year')
-=======
- #Here final vector will be written in the file Word Puzzle Challenge.txt.
- ##The parameter "\\n" means that each string will be separated by a line break: col.names, row.names and 
- ##quote gives unnecesary information that won't be included in the final text file
- write.table(final,"Word Puzzle Challenge.txt",sep="\\n", col.names=F, row.names=F, quote = F)
->>>>>>> 302e0d3615c18989e1fb7efd950bdbc4b06cc1fc
