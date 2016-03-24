@@ -1,0 +1,54 @@
+Game Dev Challenge: Word Puzzles
+Find the month names in the grid below
+Written by: Hedley Knewjen Quintana
+
+W X A U D X O S I A M F H J A I K R D F Z X G R S N E K P C V Q Q P K Y S H E S V L R F X B E B L E
+I C Q O O J M V E Q Q H E D G J I U E D D I D E N L B M I A D Y M L D G A K U M Z I C W V D D W M N
+U T B I H C V Y O C J O D X W F L Z D V Z I D M H G V Z U M L P K F J C R O Y M L V P B R Y A Y S P
+Y V D P S M F S H D E C E M B E R G N S F B V A N B K E V F S Z R P P O A I U R K Q C E C F L L V V
+M Z O W V E G A H E D W Y S T Q K R A P R U V P Z A V W P K A V D B J H J Z I A C K Q C E I M X W J
+B C R R U E P R S W C M K S C P N O N D A R R A I S Z Q N M V D F X D O D S Y M E U M B B W O A P M
+H F L M M P N T V S A S H L D L G W F U Z F E L P P S U V L H S S Z R P I Q G Y L X H Q E M N R G A
+I K L R L L T H E M C S G A N H J C E M V A R X Z R W V V A Z R G U V V Y U V Y C F Q V C M I O O R
+S J A T X A G Z E M G Z W H C M A O Q G D Y V I F V I O T R G U T E Q L T M X C M X P X X K H T B C
+J Y Y K W G E V I X B O T R M C V Z P T C U W X I H B V Z A V Z H Z H U P Q V J V T V V K M R W R H
+I W W F T K B I Q O J E A R R W B B W A W W L M R M U B M Z R Y X L U C I A E V O B D K Q Y B H R X
+C N X P M I U J K S S P R S F X V I C R P L E L A U J A P D D C A F B Y L A T G D Z U G D H Y U C M
+R L T I J M I R C M Z X E I C P N P X G I Z B E Q B J B Y P O O D B W N Y Y S J B Y B T O N T O G X
+I G J F W W A U C A X P O G V Z V T Z J U N E H T R J P M Y J T F N F Y P W O M I J A Q W V X R H Y
+X X P A Z T W Y J V T L T J J S B W P M T K H V K H M T W X Y O G F W H X P P Q I W M Q L Q P G I V
+H H A Z X W V X H B F D Z T V F F Y Z P R L O O U T T B E H E V Z A A Y N O R V Q B G B C P M O Q Q
+R C F D X T Z Z P K R P Y X E I R D A Z O C V S W Q X Z P I P O C S I C Q N N C F H T E V B A X S J
+P F E B Y X U U W Q L O B X Y O Z Q M U Y I K B M S S V T W T F G D D J K R M N K Z N E S S A W O C
+W C T P K B B J T A N W R R A O D H H R H Z S B J V P A C H C W F F W Z A C P A Q I L S Q V Q R A K
+Z U M D T K R W R H L L J K R W T G F W H D N J G K B S G F U C A I C D H U Q Y S X T K T Q N V H Y
+H G M H E U L B U T R F P M F D B V D T Q W M Z W W Z L F I I D L E L O C O G J V K W T Y B E V G M
+B N I Q X V D D F J V T X V D O C G N V L Z I W F M A D U K D O C Y Q N E Z T U E Q X A P N Q B D J
+X W T R K M N W K C Z L P S U G M L J A W M M D G Z E E O A B F B R R G C X U L S U W C I Y B O L Z
+E V P L A Q G O C A L M Q J B B A L D S A T Y D I R W X V G H V H H K B I A O Y V T G T I Z E M L O
+Y T Q K E S T P U W B T H R U Y U Y R N B N P D K S X F E I O O T W K X W V A V D S Z E G O G K N V
+Z A K P I B G L C I A F J E J J Z Y K Q Z P O V D O V N P A H Q V M Z P M C Z A E T K U N B A K D I
+L C N M F P T N Y A E E D F N S Q T P Z V L K V D C N X F I F Z C J U W G A U C K R N B U F H G K N
+D N O T E Y P N Z A P A X L J F L E T Q E A G X C Y O M Z H P T Y P V J J X J K W W Z F C W H U A O
+P W I V L Q W T S G D W M U Z Z A K G C W I F N M Q V E A Z Z K R C I D O J Q C W S U J L M J T F X
+T P H V E R Q S W O P O G K E F E Q N F X T L Y J L E S T C U H R T X O F G N L D F D V G S N U P L
+N B O M F B A O I E O F V U V D T B C M F Y G G P B M Y O J Q S X Y B K D I C U E D U U T O H D D H
+L U K Y L Y Q L X J S K N T O N F J B F W R N D C H B P R V H D Q S O K H D J E E B F E A A P F I U
+B O G U R Z N E M K T V U J D H I I D A L S A T E X E A B K A Y J W C D X R O Z G P X Y G W I K P N
+B I C Q D G Y O Z Q K C P P C L W T N L O C Q L Q P R X B E Q U G A Z E D J L H E I U B M M A U V J
+Z P V R K I A P R I L A P N Q I R W M R M T V Z H G G C R M B N V B V O A S F P M M G E Y N E X L G
+P T Z C W V A J J P U C K B N S Q K B R O E D A X E G P E Y E V V O B I Z B V F B N O L F F L M M T
+Y W K T L T C V W V E V E V R N G V S E G Y T J K B Q S M O O U O V N G O T G E F M F D H E I V X H
+G F L W Z R C P E V Y T H Z R Q L S R Y H P E M Q H H P A C D O G B Q N T O M W K V G U Z K R L P E
+V F V Q O F F G N O I B C X A P U P Y Z C Z W S Z Q O C T O B E R V P H G R G L W R F N V N P X U A
+H D Q D F J V Y R K E G Y F D Y F X E M R U Q G D G W Y E L K X S H Q C G Y J J V V V B K V E F O T
+X S W F Y U G J U Y I X O C Z X P R V Z T T V D C U V L K B M L L H F Y T W Q Q J X O I I I F P D P
+V J T U S L Q V E B K S Y C Q H C Y Y P P P X V X H L K Z X J F N Q A E L P I B T O E M Y A R H P I
+G I S U J O C R F W A H W Y Z I X N R U I R H S Z A F Z O D J B Y K B Q B A C C H M P Z N M G J J M
+O O W N G P E V M H Q M X H H O R M P B E O C N C W G Z L J G T K L T L W R L L N Q P Z G I F B A H
+C P L X Y H J V T H D R L Q G S K K U N P C A B N Q N A P J Q A G Q C Z W Z U U L U I X C M C J N T
+U E V T D T O I B P R Q I D X Z N G V L M Z M Z E D T H T X D H J R I D S O O A T R F M W G F A U C
+L K U Y Z Y J O W K J E V B U R D L E B N V I A H V K X Q Q H Y W P C X K Z F U R Y M B J D C Q A L
+E Y K H G F G S O F D K K R E U H X F S K D V C O N B P K N W B X X M J O J X U S Y M M A E B K R I
+R H G J E H E V K K O D L Q N D P R I N N C U H D B I O U W U C L H E V P Z X X B J E P E J J X Y H
+Q Z A E S X T A S B I F L K G C N K U C N E L S K D O J T B O E J P A V S T A Y B G J Z Z Q B W E B
