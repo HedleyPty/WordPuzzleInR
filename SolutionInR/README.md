@@ -1,10 +1,9 @@
-#What does this R script does?
 
 It creates a 50 by 50 matrix of random uppercase letters.
 
 The matrix will be injected randomly with three uppercase month names in horizontal position, three different uppercase month names in vertical position and the three remaining month names in diagonal position (from left up to right down)
 
-Finally, it will create a text file named "Word Puzzle Challenge.txt" that will contain the word puzzle.
+Finally, it will create a text file named "Word Puzzle Challenge.html" that will contain the word puzzle. In Linux and Mac, it will open the puzzle in a browser, I couldn't manage to do that in Windows
 
 Notice that no external libraries were used!!
 
