@@ -2,6 +2,7 @@
 #The vector LETTERS contains all the letters in the English alphabet in upper case
 # Documentation in R can be called with the sintax ?R.object
 #?LETTERS calls the "Build-in Constant" documentation that reads
+
 ##Regarding LETTERS the documentation reads: "LETTERS: the 26 upper-case letters of the Roman alphabet"
 ##Regarding letters the documentation reads: "letters: the 26 lower-case letters of the Roman alphabet" (used in the debug version)
 ##Regarding month.name (that we will use later) the documentation reads: "month.name: the English names for the months of the year" 
@@ -123,21 +124,22 @@ for (i in 1:12){
 ###the regex '[^Word\\.g] means that you should exclude from the search "Word.g"
 rm(list=grep('[^Word\\.g]', ls(),value = T))
 #Here I a vector with a heading!
-final<-c('Game Dev Challenge: Word Puzzles','Find the month names in the grid below', 'Written by: Hedley Knewjen Quintana', "")
+#final<-c('Game Dev Challenge: Word Puzzles','Find the month names in the grid below', 'Written by: Hedley Knewjen Quintana', "")
 #A third for loop
- for (i in 1:50){
-    
-    #This loop will convert each row of the Word.g matrix in a single string of letters separated by spaces
-    #then each of this string will be added as an element of the final vector!
- 	final<-c(final, paste0(Word.g[i,], collapse=" "))
- }
-
+final<- "<!DOCTYPE html><html><head><title>Puzzle Challenge Tier 1</title></head><body><h1>Puzzle Challenge Tier 1</h1><table><tr>"
+#counter<-0
+for (i in 1:50){
+ for (j in 1:50){
+	final <-paste0(final,"<td>",  Word.g[i,j], "</td>")}
+    if (j==50){
+       final<-paste0(final, "<tr></tr>")
+  }
+}
+final<-paste0(final, "</tr></table></body></html>")
 #Here final vector will be written in the file Word Puzzle Challenge.txt.
 ##The parameter "\\n" means that each string will be separated by a line break: col.names, row.names and 
 ##quote gives unnecesary information that won't be included in the final text file
-write.table(final,"Word Puzzle Challenge.txt",sep="\\n", col.names=F, row.names=F, quote = F)
-#print('A text called "Word Puzzle Challenge.txt" has been created, open it in your text editor. It contains a Word Puzzle with the months of the year')
-switch(Sys.info()[['sysname']],
-Windows= {system('type Word\\ Puzzle\\ Challenge.txt')},
-Linux= {system('cat Word\\ Puzzle\\ Challenge.txt')},
-Darwin = {system('cat Word Puzzle Challenge.txt ')})
+write.table(final,"WordPuzzleChallenge.html",sep="", col.names=F, row.names=F, quote = F)
+dir<-system("pwd", intern=T)
+url<-paste("file://",dir,"/WordPuzzleChallenge.html", sep="")
+browseURL(url)
