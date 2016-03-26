@@ -2,7 +2,7 @@
 
 #Instructions
 
-Open the folder with the solution and follow the readme instruction of each Solution
+Open the folder with the solution and follow the readme instructions of each Solution in each programming languages
 
 #Libraries used
 
