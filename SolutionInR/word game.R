@@ -139,9 +139,12 @@ final<-paste0(final, "</tr></table></body></html>")
 #Here final vector will be written in the file Word Puzzle Challenge.txt.
 ##The parameter "\\n" means that each string will be separated by a line break: col.names, row.names and 
 ##quote gives unnecesary information that won't be included in the final text file
-write.table(final,"WordPuzzleChallenge.html",sep="", col.names=F, row.names=F, quote = F)
-if(Sys.info()[1]!="Windows"){
-dir<-system("pwd", intern=T)
-url<-paste("file://",dir,"/WordPuzzleChallenge.html", sep="")
-browseURL(url)
+write.table(final,"WordPuzzleChallenge.html",sep="", col.names=F, row.names=F, quote = F) 
+if(Sys.info()[1] != "Windows"){ 
+dir<-system("pwd", intern=T) 
+url<-paste("file://",dir,"/WordPuzzleChallenge.html", sep="") 
+}else{
+url<-fileChoose()
 }
+browseURL(url)
+
